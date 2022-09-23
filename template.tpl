@@ -76,7 +76,7 @@ addEventCallback((ctid, eventData) => {
   const tags = eventData.tags.filter(t => t.exclude !== 'true');
   
   // Build a payload and dispatch to the endpoint as a GET request
-  let payload = '?eventName=' + event + '&eventTimestamp=' + eventTimestamp + 'cv=' + cv.version + 'envName=' + cv.environmentName + 'ctid=' + cv.containerId;
+  let payload = '?eventName=' + event + '&eventTimestamp=' + eventTimestamp + '&cv=' + cv.version + '&envName=' + cv.environmentName + '&ctid=' + cv.containerId;
   tags.forEach((tag, idx) => {
       const tagPrefix = '&tag' + (idx + 1);
       payload +=
