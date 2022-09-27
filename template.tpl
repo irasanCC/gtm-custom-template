@@ -14,7 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Code Cube Tag Monitor Template",
-  "categories": ["TAG_MANAGEMENT", "ANALYTICS"],
+  "categories": ["TAG_MANAGEMENT"],
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
