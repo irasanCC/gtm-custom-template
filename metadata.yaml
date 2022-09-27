@@ -1,5 +1,9 @@
 homepage: "https://code-cube.io/"
 documentation: "https://code-cube.io/tag-monitor/"
 versions:
+    # Latest version
+  - sha: e9c9807f710a076471f99c583d941a88f524d4a9
+    changeNotes: Update payload string
+    # Older versions
   - sha: 6caaa9101164e1b459c9ce54ae3df1f5b2135f7d
     changeNotes: Initial release.
